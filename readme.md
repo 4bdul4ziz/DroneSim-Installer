@@ -12,6 +12,7 @@ This repository contains a Bash script that installs the required components to 
 2. Open a terminal and navigate to the directory where you downloaded the `install.sh` file.
 3. Make the file executable by running the following command: `chmod +x install.sh`.
 4. Execute the script with the following command: `./install.sh`.
+5. Additionally, you can run `source <(curl -s https://github.com/4bdul4ziz/DroneSIm-Installer/blob/main/install.sh)` to download and execute the script in one step.
 
 The script will create a directory named `abdaz` and install all the components inside it. It will install Mono, pip3, python-is-python3, pymavlink, MAVProxy, Mission Planner, ArduPilot, and FlightGear.
 
