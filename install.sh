@@ -44,10 +44,13 @@ git submodule update --init --recursive
 # Install FlightGear
 sudo apt-get install flightgear -y
 
+cd ArduCopter
 . ~/.profile
 export PATH=$PATH:$HOME/ardupilot/Tools/autotest
 export PATH=/usr/lib/ccache:$PATH
 . ~/.bashrc
+sim_vehicle.py -w
+
 
 sudo apt-get install python3-dev python3-opencv python3-wxgtk4.0 python3-pip python3-matplotlib python3-lxml python3-pygame
 pip3 install PyYAML mavproxy --user
