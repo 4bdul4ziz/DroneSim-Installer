@@ -29,7 +29,6 @@ pip install mavproxy
 wget https://firmware.ardupilot.org/Tools/MissionPlanner/MissionPlanner-latest.zip
 unzip MissionPlanner-latest.zip
 cd MissionPlanner
-mono MissionPlanner.exe
 
 # Install ArduPilot
 cd ..
